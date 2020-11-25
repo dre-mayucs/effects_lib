@@ -4,7 +4,6 @@ class Object_OP
 private:
 	const double gravity = 9.8;
 	const double dt = 0.1;
-	double t = 0;
 	double v = 0;
 	int pos_X;
 	int pos_Y;
