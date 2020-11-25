@@ -16,7 +16,6 @@ void Object_OP::Object_Draw()
 	pos_Y += v;
 
 	DrawCircle(pos_X, pos_Y, Obj_r, WHITE, true);
-	t++;
 }
 
 void Object_OP::Get_Object_Pos(int *Pos_X, int *Pos_Y)
